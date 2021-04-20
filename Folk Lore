@@ -1,0 +1,489 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--creates responsive webpage -->
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+ 
+ <link rel="shortcut icon" href="images/icons/Troll.ico" type="image/x-icon"><!-- Favicon -->
+ <link href="Css/owl.carousel.min.css" rel="stylesheet">
+ <link href="Css/owl.theme.default.min.css" rel="stylesheet">
+ <link href="Css/common.css" rel="stylesheet"> <!--common style sheets-->
+ <link href="Css/blogPosts.css" rel="stylesheet"> <!-- folklore css -->
+ <link href="Css/Print.css" rel="stylesheet" media="print">
+ 
+ 
+ <title> Folk Lore </title>
+</head>
+
+<body>
+<!---Navigation -->
+<nav class="nav">
+	<div class="nav-menu flex-row">
+		<div class="navType">
+			<a href="TrollBlog.html" class="blogName" id="blogName"> Troll Blog </a> <!-- on entrance page refresh on other load to entrance -->
+		</div>
+			
+		<div class="toggleCollapse">
+			<div class="toggleIcons">
+				<img src="images/icons/3bars.png"  width="35px" />
+			</div>
+		</div>
+			
+		<ul class="navContent">
+			<li class="navLinks">
+				<a href="Main.html"> Home </a> <!--make link to main page after entrance -->
+			</li>
+			<li class="navLinks">
+				<a href="FolkLore.html"> FolkLore </a>
+			</li>
+			<li class="navLinks">
+				<a href="Types.html"> Types </a>
+			</li>
+			<li class="navLinks">
+				<a href="Media.html"> Media </a>
+			</li>
+			<li class="navLinks">
+				<a href="sidePage/tabs/About.html"> About me </a>
+			</li>
+		</ul>
+		
+		<div class="Social text-blue">
+				<a href="sidePage/Quizzes/Contact.html"> Contact us. </a>
+		</div>
+	</div>
+</nav>	
+
+<nav class="Social text-blue">
+	<div class="topTag">
+		<a href="#" id="topTag"> Folk Lore </a>
+	</div>
+	<div id="mySidenav" class="sidenav">
+	  <a href="sidePage/tabs/About.html" id="about">About</a>
+	  <a href="sidePage/Media/Gallery.html" id="gallery">Gallery</a>
+	  <a href="#" id="projects">Shop</a>
+	  <a href="sidePage/Quizzes/Contact.html" id="contact">Contact</a>
+	</div>
+</nav>
+		
+
+<!-- close navigation -->
+
+<!-----------Main section---------------->
+<main> 
+
+
+
+
+	<!--------------site title ----------->
+	
+	<!-- Blog content -->
+	
+<section class="container">
+	<div class="mainContent">
+		 <div class="posts">
+				<div class="postContent">
+				<div class="postImage">
+					<img class="mainImg" id="mainImg" src="images/trolls/troll.jpg" alt="#" width="300px"/>
+					
+					<div class="postInfo">
+						<span><img src="images/icons/Tc16.png" alt="icon" />&nbsp;&nbsp; Troll </span> &nbsp;&nbsp; 
+					</div>
+					</div> 
+				
+				<div class="postTitle">
+					<h1 id="Troll"> What is a Troll </h1>
+					<p>
+						Troll (originates from Old Norse trǫll, also known as þurs in Norse or thurse in Anglo-Saxon) 
+						is a class of being in Germanic mythology and Scandinavian folklore.
+						They also have cousins or decsendants in old scottish and Irish folklore in the form of The Fae and Trow/Drow.
+
+					<p>
+						The meaning of the word troll is unknown. 
+						It might have had the original meaning of supernatural or magical with an overlay of malignant and perilous. 
+						Another likely suggestion is that it means "someone who behaves violently" 
+						In old Swedish law, trolleri was a particular kind of magic intended to do harm. <br /> <br />
+						
+						It should also be noted that North Germanic terms such as trolldom (witchcraft) and trolla/trylle 
+						(perform magic tricks) in modern Scandinavian languages does not imply any connection with the mythical beings. 
+						Moreover, in the sources for Norse mythology, troll can signify any uncanny being, including but not restricted to the Norse giants (jötnar). <br /> <br />
+
+						They are essentially a type of monsters found mainly in myth and legend, though these legend have since spread into the realms of fairy tales and fantasy,
+						and trolls are now the antagonist in countless popular tales. <br />
+					</p>	
+					
+					<p>	
+						Depending on the source, their appearance varies greatly; 
+						In some tales, trolls may be ugly and slow-witted, or look and behave exactly like human beings, 
+						with no particularly grotesque characteristic about them.
+						
+						Though in later tales a Troll were given a distinct physiology that consists of a large bulbous nose, wrinkled skin, a tufty tail and an often hunched for						- 
+						they are also usually covered in coarse hair and are seen as smelly, stupid and violent.
+						This could have been set as a a warning against "wild men" or something unknown, which many feared in the past. <br/><br/>
+						
+						More humanoid trolls also existed and in general these more humanoid trolls were seen as more pleasant, 
+						taking to wearing human clothing and even forming family and friends - in contrast to their ugly, monstrous cousins in the wild. <br/> <br/>
+						
+						Some Trolls have been described as having more than one head, many tales also include that these heads have been observed arguing with each other. 
+						The film TrollHunter does a great job of offering a variety of troll types and characteristics. Which could be worth a look if you're interested. <br/> 
+					
+											
+					</p>
+	
+				</div>
+			</div>
+			
+			
+			<div class="back">
+				<a class="toTop" href="#blogName"> Back to Top </a>
+			</div>
+			<hr>
+			
+			<div class="postContent">
+				<div class="postImage">
+					<img id="mainImg" src="images/NorwayTroll.jpg" alt="#" width="500px"/>
+					
+					<div class="postInfo">
+						<span><img src="images/icons/Tc16.png" alt="icon" />&nbsp;&nbsp; Norse </span> &nbsp;&nbsp; 
+						 
+					</div>
+				</div>
+				
+				<div class="postTitle">
+					<h1 id="Norse"> Norse / Scandinavian. </h1>
+					<p>
+						Norse tales have a strong emphasis on oral telling, stories would be told around camp fires or the dinner table,
+						with very few actually written down until very recently. <br /> <br />
+						
+						In these Old Norse tales, trolls are decribed as dwelling in isolated rocks, mountains, or caves,
+						live together in small family units, and are rarely helpful to human beings.
+						Trolls were seen as generally malignant and cruel humanoids ranging from gigantic size to humanoid or smaller statures 
+						(no one size description can fit them all) and were normally seen as hideously deformed, 
+						though they were often depicted with shape-shifting abilities and other magical powers. <br/>
+					</p>
+					
+					<p>
+						Later, in Scandinavian folklore, trolls became beings in their own right, 
+						many older tales the word "troll" simply means any number of malicious small-to-mid scale ogres or gnomes:
+						
+						where they live far from human habitation, 
+						are not Christianized, and are considered dangerous to human beings. <br/>
+					</p>
+					<p>
+						Trolls were also said to be afraid of thunder, 
+						which had strong connections to the Norse god <strong><em>Thor</em></strong>, 
+						who made a great habit of slaying giants, 
+						trolls and other malicious creatures during his rule in Norse mythology. <br/>
+					</p>
+					<p> 
+						Nordic literature, art and music from the romantic era and onwards has adapted trolls in various manners – 
+						often in the form of an aboriginal race, endowed with oversized ears and noses. 
+						They are often depicted with tails and hairy ears, similar to the ears of lynxes. <br />
+					</p>
+					
+					<p>		
+						Trolls are also sometimes associated with particular landmarks, 
+						which at times may be explained as formed from a troll exposed to sunlight.  <!--- This could potentially have its own section ---->
+						There are a great many troll based landmarks scattered about the norwegian country side. 
+					</p>
+					
+					
+				</div>
+			</div>
+			
+			<div class="back">
+						<a class="toTop" href="#blogName"> Back to Top </a>
+			</div>
+			<hr>
+			
+			<div class="postContent">
+				<div class="postImage">
+					<img id="mainImg" src="images/IcelandTroll.jpg" alt="#" width="500px"/>
+					
+					<div class="postInfo">
+						<span><img src="images/icons/Tc16.png" alt="icon" />&nbsp;&nbsp; Iceland </span> &nbsp;&nbsp; 
+						 
+					</div>
+				</div>
+				
+				<div class="postTitle">
+					<h1 id="Iceland"> Icelandic </h1>
+					<p> 
+						The Icelandic people have a strong oral tradition of telling folklore stories and tales, similar to their Nordic cousins. 
+						They whisper the same hushed bedtime fairy tales of the ‘hidden people’ and elves to their own children. 
+						Tale's that could bring delight or inflict nightmares upon the listener. <br />
+					</p>
+					<p>
+						How trolls are depicted in Icelandic tales is virtually identical to those in norse myth, before trolls began to take on a creature in their own right.
+						again the similarities may persist because Iceland was inhabited by ancient norse people.
+						Trolls in Iceland appear to look as though human, though they live in a parallel dimension and can make themselve visible at will. <br />
+					</p>
+					
+					<p>
+						Similarly, as with norse myth, trolls in Iceland have a strong connection to the environment, 
+						both regions also contain tales where trolls seem to be on the hunt for children. 
+						This may have been used to keep them from being disobedient or to be a warning for whoever would wander to far or too deep into a dangerous area.					
+						Icelandic tales are also full of bumbling goofy characters that perfrom tricks and pranks. 
+						Though still contain that quick mean streak and can be quite dangerous if one is not careful. <br/>
+					</p>
+					
+					<p>
+						There are certain Trolls in Iceland are typically associated with christmas, these are the tales of the 13 Yule lads who are proficienct tricksters.
+						They have fun names like sausage-swiper and Bowl-licker which can tell the the sort of hijinx they get up to.
+						In older tales, while they were very tricksy, they also enjoyed eating wayward or disobedient children.
+						Though their more modern interpretations are still tricksy, they more enjoy rewarding good children over gobbling them up. <br />
+					</p>
+					
+					<p>
+						Gryla on the other hand is a Horrifying interpretation of a Troll character, She is the mother of the Yule lads,
+						and her tal is alos typically told at christmas time in Iceland.
+						Gryla comes from norse myth where she is a giant or jotun, but in iceland she is described as a begger,
+						who walks the streets asking parents to give up their disobedient children.
+						
+						You can read more of her in our stories section.
+					</p>
+					
+					<p>
+					
+					</p>
+				</div>
+			</div>
+			
+			<div class="back">
+				<a class="toTop" href="#blogName"> Back to Top </a>
+			</div>					
+			<hr>
+			
+			
+			<div class="postContent">
+				<div class="postImage">
+					<img id="mainImg" src="images/GermanTroll.jpg" alt="#" width="500px"/>
+					
+					<div class="postInfo">
+						<span><img src="images/icons/Tc16.png" alt="icon" />&nbsp;&nbsp; German </span> &nbsp;&nbsp; 
+						 
+					</div>
+				</div>
+				
+				<div class="postTitle">
+					<h1 id="German"> German </h1>
+					<p> 
+						A lot of german folklore come from the Grimms brothers fairytales, these tales have a mix of pre-christian folklore coupled with elements of norse myth. 
+						Many tales from these german folk lores bare a striking resemblance to those from troll myth, including the tale of <strong><em>Rumplestiltskin.</em></strong>
+						A creature that is said to drop dead at the uttering of his own name from another.
+						This tale is near word for word the tale of <strong><em>Dunker</em></strong> the troll who burst asunder once he heard his own name.
+					</p>
+					
+					<p>
+						It should be noted that though North Germanic terms such as trolldom (witchcraft) and trolla/trylle (perform magic tricks) 
+						are used in modern Scandinavian languages, these terms do not imply any connection with the mythical beings.  
+						Moreover, in the sources for Norse mythology, the term troll can signify any uncanny being, including but not restricted to the Norse giants (jötnar). <br />
+					</p>
+					
+					<p>
+						So while it may seem that these tales are unique, they may have stemmed from the same origin and simply blended into the the local cultures.
+						Becoming changes and adatped over time, in tune with what was going on in that particuale area at the time.
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="back">
+				<a class="toTop" href="#blogName"> Back to Top </a>
+			</div>					
+			<hr>
+			
+			<div class="postContent">
+				<div class="postImage">
+					<img id="mainImg" src="images/kelpie.jpg" alt="#" width="500px"/>
+					
+					<div class="postInfo">
+						<span><img src="images/icons/Tc16.png" alt="icon" />&nbsp;&nbsp; Irish / Scottish </span> &nbsp;&nbsp; 
+						 
+					</div>
+				</div>
+				
+				<div class="postTitle">
+					<h1 id="Irish"> Irish / Scottish </h1>
+					
+					 <h2> Scottish </h2>
+					<p> 
+						
+						Similarly with German Folk Lore the Irish and the Scottish have very similar tales though they do not use the term Troll. 
+						In the Shetland and Orkney islands, Celtic areas once settled by Scandinavians, 
+						trolls are called trows and appear as small malignant creatures who dwell in mounds or near the sea. <br /> <br />
+						
+						An example in scottish folklore is a creature known as the kelpie; 
+						resembles a horse covered in seeweed and in attempts to lure unsuspecting victims to a watery grave. <br /> <br />
+						
+						This is very simiar to the seatroll or water troll, or the Danish "Nixie" or the scandinavian "bäckahästa".
+						All	creatures covered in moss or seaweed, all hiding in some watery area waiting to lure people to the depths. <br/>
+					</p>
+					
+					<p>					
+						As we've learned if you've read other areas in this blog the term troll can signify any uncanny being. 
+						We could assume then, that these tales simply borrowed from one another or began as the same tale told and retold across the centuries,
+						and as they were told and adapted the evolved into their own unique stories over time.
+					</p>
+					
+					<hr>
+					
+					<h2> Irish </h2>
+					
+					<p>
+						When the ancestors of the modern Irish, the Milesians, arrived in Ireland the inhabitants, known as the Tuatha de Dannan, retreated into the otherworld. 
+						This otherworld was commonly seen as being somewhere else on Earth, with underground being one of those places. 
+						These "fairy mounds" or "sidhe" are the homes of the fairies. I don't know when the fairies began taking on the characteristics of things like trolls etc. 
+						but they are the mythological "descendants" of the older race of beautiful and powerful divine beings. <br/>
+					</p>
+					
+					<p>
+						All of these tales have one particular thing in common, they all seem to be warnings: <br /><br/>
+							"Don't stray too far into the woods, there are trolls" <br />
+							"Don't go too near the water the Kelpie waits!" Etc. Etc...<br /> <br/>
+							
+						These tales also show us what great imagination people can have, 
+						and how a tale told over a thousand years ago around a camp fire somewhere in the darkest woods.
+						Can persist until today and be told to our own children and their children for as long as time.
+							
+					</p>
+						
+				</div>
+			</div>
+			
+			<div class="back">
+				<a class="toTop" href="#blogName"> Back to Top </a>
+			</div>					
+								
+			
+			<!-- end content -->
+			
+			<div class="pageTurner flex-row">
+				<a href="#"> <img src="images/icons/leftArrow.png" width="30px" /> </a>
+				<a href="#" class="pages"> 1 </a>
+				<a href="#" class="pages"> 2 </a>
+				<a href="#" class="pages"> 3 </a>
+				<a href="#"> <img src="images/icons/rightArrow.png" width="30px" /></a>
+			</div>	
+		</div>
+			
+		
+		<aside class="sideBar">
+			<div class="category">
+				<h2> Quick Link  </h2>
+				<ul class="categoryList">
+					<li class="listItems">
+						<a href="#Norse"> 
+							<span> Norse </span>
+						</a>
+						
+					</li>
+					<li class="listItems">
+						<a href="#Iceland"> 
+							<span> Icelandinc</span>
+						</a>
+						
+					</li>
+					<li class="listItems">
+						<a href="#German"> 
+							<span> German </span>							
+						</a>
+						
+					</li>
+					<li class="listItems">
+						<a href="#Irish"> 
+							<span> Irish </span> 
+						</a>
+						
+					</li>
+				</ul>
+			</div>
+			</aside>
+		</div>
+			
+		
+	
+	</div>
+</section>
+	
+	<!-----------close site title ---------->
+
+
+	 
+</main>
+<!--------------Close main section------------------------->
+
+<!---------------footer----------------->
+<footer class="footer">
+
+	<div class="container">
+		<div class="btmTag">
+				<span><img src="images/icons/upArrow.png" alt="icon" width="25"/></span> &nbsp;&nbsp; 
+						
+			</div>
+		<div class="about"> 
+			<h4> About </h4>
+				<p>
+					This blog at the moment is dedicated to Trolls. 
+					The mytical creature from Norse folklore. <br />
+					Though, as the blog expands, it may begin to encompass, all of Norse myth.
+				</p>
+		</div>
+		<div class="quickLink"> 
+			<h4> External Links </h4>
+				<ul>
+					<li>
+						<a href="https://owlcation.com/social-sciences/troll-of-norway#:~:text=%20However,%20we%20have%20learned%20the%20names%20of,Geirr%C3%B6d%E2%80%94A%20j%C3%B6tunn%20and%20father%20of%20giantes...%20More" target="_blank" > 
+							<img id="linkimg" alt="Owlcation" src="images/links/owllink.JPG" width="100" height="25" />
+						</a>
+					</li>
+					<li>
+						<a href="https://mythology.net/norse/norse-creatures/troll/" target="_blank" >
+							<img id="linkimg" alt="mythology.net" src="images/links/mythlink.JPG" width="100" height="25" />
+						</a>
+					</li><!--alter this-->
+					<li>
+						<a href="https://en.wikipedia.org/wiki/Troll#Norse_mythology" target="_blank" >
+							<img id="linkimg" alt="wiki link" src="images/links/wikilink.JPG" width="100" height="25" />
+						</a>
+					</li>
+					<li>
+						<a href="https://www.lifeinnorway.net/norwegian-trolls/" target="_blank" >
+							<img id="linkimg" alt="life in Norway" src="images/links/norwayLink.jpg" width="100" height="25"/>
+						</a>
+					</li>
+				</ul>
+		</div>
+		
+		<div class="follow">
+			<h4> Follow </h4>
+				<a href="https://www.facebook.com/"> <img src="images/icons/wFacebook.jpg" alt="white facebook logo" width="30px" ></a>
+				<a href="https://www.instagram.com/"> <img src="images/icons/insta.png" alt="white instagram logo" width="35px" ></a>
+				<a href="https://twitter.com"> <img src="images/icons/twitterB.png" alt="white twitter logo" width="30px" ></a>
+				<a href="https://www.pinterest.ie/dereknelsen_com/norse-trolls/"> <img src="images/icons/pintW.jpg" alt="white pintrest logo" width="30px" ></a>
+				
+		</div>
+		
+		<div class="email">
+			<h4> Email </h4>
+				<p> Don't hesitate to get in touch </p>
+				<form class="newsForm" action="mailto: Genniferee@yahoo.ie" method="post" enctype="text/plain" >
+					<input type="email" id="yourEmail" placeholder="Email"  />
+					<input type="image" img src="images/icons/whiteArrow.jpg" width="20" alt="submit" /> </span>
+				</form>
+		</div>
+		
+		
+	</div>
+
+</footer>
+
+<!-----------      end of footer      ------------>
+
+<script src="js/jQueryLib3.6.0.js"> </script><!----jQuery library-------->
+<script src="js/owl.carousel.min.js"></script> <!---------- carousel ------->
+<script src="js/Main.js"> </script><!------ Javascrpit------->
+
+</body>
+</html>
