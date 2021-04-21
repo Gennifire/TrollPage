@@ -1,0 +1,164 @@
+/*   Javascript Slide Show  */
+.slides1 {
+	position: relative;
+	width:700px;
+}
+
+.slideImg {
+	display: none;
+}
+
+.button {
+		border:none;
+		display:inline-block;
+		padding:7px 15px;
+		color: #ebecf0;
+		background-color: black;
+		text-align:center;
+		cursor:pointer;
+		white-space:nowrap
+}
+
+.button:hover{
+	color:black!important;
+	background-color:white!important
+	
+}
+
+.container .display-left{
+	position:absolute;
+	top:30%;
+	left:0;
+	
+	
+}
+
+.container .display-right{
+	position:absolute;
+	top:30%;
+	right: 0;
+}
+
+
+
+/*    css slides    */
+#cssSlides {
+	margin-top: 20px;
+	position: relative;
+	width: 700px;
+	padding-bottom: 40%;
+	background: #4c4c4c;
+	border: solid 10px #2c2c2c;
+}
+
+
+ .cssSlide {
+	position: absolute;
+	width: 700px;
+	height: 100%;
+	
+}
+
+.cssSlide img {
+	width: 100%;
+	height: 100%;
+}
+
+#Img1, #Img2, #Img3, #Img4, #Img5 {
+	display: none;
+}
+
+.prev, .next {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	background: rgba(88,88,88, .4);
+	cursor: pointer;
+}
+
+.prev:hover {
+	background: black;
+	opacity: .5;
+}
+	
+.next:hover {
+	background: black;
+	opacity: .5;
+}
+
+
+.prev {
+	left: 0;
+}
+
+
+.next {
+	top: 0;
+	right: 0;
+}
+
+.navDots {
+	width: 100%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	
+	
+}
+
+.dots {
+	top: 325px;
+	width: 18px;
+	height: 100%;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	background: black;
+	border-color: #ebecf0;
+	opacity: .6;
+	z-index: 99;
+	
+}
+
+.dots:hover{
+	background: white;
+}
+
+.cssSlide {
+	z-index: -1;
+}
+
+#Img1:checked ~ #id1,
+#Img2:checked ~ #id2,
+#Img3:checked ~ #id3,
+#Img4:checked ~ #id4,
+#Img5:checked ~ #id5{
+	z-index: 9;
+}
+
+#id1:checked ~ .navDots #dot1,
+#id2:checked ~ .navDots #dot2,
+#id3:checked ~ .navDots #dot3,
+#id4:checked ~ .navDots #dot4,
+#id5:checked ~ .navDots #dot5{
+	background: white;
+}
+/*   end radio css     */
+/*end slide show Java script Slide*/
+
+/*   Json slide   */
+.Slides2 {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.slides2 img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/*      End json slides*/
+

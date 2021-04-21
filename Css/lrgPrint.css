@@ -1,0 +1,43 @@
+html, body {
+	width: auto;
+	height: auto;
+	zoom: 85%;
+}
+
+@page{
+	size: A4;
+	margin-top: 0.5in
+}
+
+main {
+	top: 5px;
+}
+
+nav, hr, aside, footer, table, .postInfo, .pageTurner, .back {
+	display: none
+}
+
+
+h1, h2, h3, h4{
+	font-size: 20px;
+	font-family: papyrus, fantasy;
+	page-break-inside: avoid;
+}
+
+.container {
+	display:block;
+	width: 100%;
+	text-align: center;
+	page-break-inside: avoid;
+}
+
+.postContent {
+	page-break-after: always;
+}
+
+
+.mainImg {
+	box-shadow: none;
+	display: block;
+	width: 300px;
+}

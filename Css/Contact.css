@@ -1,0 +1,31 @@
+
+main {
+	background-attachment: fixed;
+	height: 100%;
+	
+}
+
+.postImage {
+	left: 0%;
+}
+
+.wrapper { /*---cinches whats wrapped inside-----*/
+	top: 5%;
+	right: 25%;
+	bottom: 30px;
+	position: absolute;
+	font-family: papyrus, fantasy;
+	color: black;
+	padding: 10px;
+	height: 100%;
+	min-width: 600px;
+	max-width: 800px;
+	text-align: left;
+	margin-bottom: 5rem;
+	z-index: 0;
+}
+
+fieldset {
+	border: 1;
+}
+

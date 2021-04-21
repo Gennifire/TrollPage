@@ -1,0 +1,23 @@
+.category {
+	top: 10%;
+	right: 5%;
+	width: 400px;
+}
+
+.listItems {
+	padding: .5rem 2rem;
+	
+}
+
+.listItems h{	
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.popular {
+	height: 650px;
+	width: 100%;
+	overflow-y: auto;
+}
+

@@ -1,0 +1,27 @@
+.sideBar {
+	position: fixed;
+	top: 15%;
+	right: 5%;
+	width: 400px;
+}
+
+.listItems {
+	padding: .5rem 2rem;
+	
+}
+
+.listItems h{	
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+}
+
+.toTop a{
+	font-size: .8rem;
+	font-family: papyrus, fantasy;
+	text-align: right;
+}
+
+
+
+

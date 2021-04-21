@@ -1,0 +1,56 @@
+@page{
+	size: A4;
+	margin: 0.4in;
+	padding: 0.5in
+}
+
+main {
+	top: 10px;
+}
+
+/* getting rid of paragraphs borders and radios on slideshow page */
+
+nav, hr, aside, footer, table, p, input, #table, #place,.button, .navDots, .postInfo, .pageTurner, .back {
+	visibility: hidden;
+}
+
+
+h1, h2, h3, h4{
+	font-size: 20px;
+	font-family: papyrus, fantasy;
+}
+
+.container {
+	width: 100%;
+	text-align: center
+}
+
+
+.posts {
+	display: block;
+}
+
+.postContent {
+	page-break-after: auto;
+}
+
+
+.mainImg {
+	box-shadow: none;
+	visibility: initial;
+	width: 700px;
+}
+
+.slideImg{
+	position: relative;
+}
+
+
+.postContent #Trolls {
+	display: none;
+}
+
+#cssSlides {
+	border: none;
+}
+

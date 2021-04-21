@@ -1,0 +1,285 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--creates responsive webpage -->
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+ 
+ <link rel="shortcut icon" href="../../images/icons/Troll.ico" type="image/x-icon"><!-- Favicon -->
+ <link href="../../Css/owl.carousel.min.css" rel="stylesheet">
+ <link href="../../Css/owl.theme.default.min.css" rel="stylesheet">
+ <link href="../../Css/common.css" rel="stylesheet"> <!--common style sheets-->
+ <link href="../../Css/feedback.css" rel="stylesheet">
+ 
+ 
+ <title> Contact </title>
+
+
+</head>
+
+<body >
+<!---Navigation -->
+
+		
+		<nav class="nav">
+		<div class="nav-menu flex-row">
+			<div class="navType">
+				<a href="../../TrollBlog.html" class="blogName"> Troll Blog</a>
+			</div>
+				
+			<div class="toggleCollapse">
+				<div class="toggleIcons">
+					<img src="../../images/icons/3bars.png"  width="35px" />
+				</div>
+			</div>
+				
+			<ul class="navContent">
+				<li class="navLinks">
+					<a href="../../Main.html"> Home </a> <!-- set to refresh the page -->
+				</li>
+				<li class="navLinks">
+					<a href="../../Media.html"> Media </a>
+				</li>
+				<li class="navLinks">
+					<a href="../../Types.html"> Types </a>
+				</li>
+				<li class="navLinks">
+					<a href="../../FolkLore.html"> FolkLore </a>
+				</li>
+				<li class="navLinks">
+					<a href="../../sidePage/tabs/About.html"> About me </a>
+				</li>
+			</ul>
+			
+			<div class="Social text-blue">
+				<a href="../../sidePage/Quizzes/Contact.html"> Contact us. </a>
+			</div>
+		</div>
+	</nav>
+
+<nav class="Social text-blue">
+	<div class="topTag">
+		<a href="#" id="topTag"> how did we do?  </a>
+	</div>
+	<div id="mySidenav" class="sidenav">
+		<a href="../../sidePage/tabs/About.html" id="about">About</a>
+		<a href="../../sidePage/Media/Gallery.html" id="gallery">Gallery</a>
+		<a href="#" id="projects">Shop</a>
+		<a href="../../sidePage/Quizzes/Contact.html" id="contact">Contact</a>
+	</div>
+</nav>
+		
+		
+
+
+<!-- close navigation -->
+
+<!-----------Main section---------------->
+<main>
+
+	
+
+<section class="wrapper">
+	<div class="mainContent">
+		 <div class="posts">
+			<div class="postContent">
+			
+			 
+    <div class="form-box">
+		<form class="Cfrom" method="post" action="youWin.html" onsubmit="return formValidate()" >
+        <h1> Website Feedback </h1>
+		<p class="question"><img src="../../images/icons/Tc16.png" /> Is this the first time you have visited the website?</p>
+			<div class="question-answer">
+			  <label><input type="radio" value="none" name="visited" id="visited" /> Yes </label>
+			  <label><input type="radio" value="none" name="visited" id="visited" /> No </label>
+			  <span id="f-error1"></span>
+			</div>
+		<hr>
+		
+        <p class="question"><img src="../../images/icons/Tc16.png" /> Did you find what you needed?</p>
+			<div class="question-answer">
+				<select id="needed" name="needed" required>
+					<option value="">Please select one: </option>
+					<option value="yesAll">Yes all of it</option>
+					<option value="yesSome">Yes, but only some</option>
+					<option value="Enough">Enough i suppose</option>
+					<option value="none">None</option>
+					<span id="f-error2"></span>
+				</select>
+			</div>
+		<hr>
+		
+		
+        <p class="question"><img src="../../images/icons/Tc16.png" /> If you did not find any or all of what you needed, please tell us what information you were looking for.</p>
+			<textarea rows="5" ></textarea>
+		<hr>
+		
+        <p class="question"><img src="../../images/icons/Tc16.png" /> Please tell us how easy it is to find information on the site. </p>
+			<div class="question-answer">
+			  <label><input type="radio" value="none" name="easy" id="easy" /> Very Easy</label>
+			  <label><input type="radio" value="none" name="easy" id="easy" /> Easy</label>
+			  <label><input type="radio" value="none" name="easy" id="easy" /> Average</label>
+			  <label><input type="radio" value="none" name="easy" id="easy" /> Difficult</label>
+			  <label><input type="radio" value="none" name="easy" id="easy" /> Very Difficult</label>
+			  <span id="f-error3"></span>
+			</div>
+		<hr>
+		
+        <p class="question"><img src="../../images/icons/Tc16.png" /> What is your overall impression of the site?</p>
+			<table>
+			  <tr>
+				<th class="first-col"></th>
+				<th>Bad </th>
+				<th>Okay </th>
+				<th>Good </th>
+			  </tr>
+			  <tr>
+				<td class="first-col">Professional</td>
+				<td><input type="radio" value="none" name="professional" id="professional"/></td>
+				<td><input type="radio" value="none" name="professional" id="professional"/></td>
+				<td><input type="radio" value="none" name="professional" id="professional"/></td>
+				<span id="f-error4"></span>
+			  </tr>
+			  <tr>
+				<td class="first-col">Informative</td>
+				<td><input type="radio" value="none" name="Informative" id="informative"/></td>
+				<td><input type="radio" value="none" name="Informative" id="informative"/></td>
+				<td><input type="radio" value="none" name="Informative" id="informative"/></td>
+				<span id="f-error5"></span>
+			  </tr>
+			  <tr>
+				<td class="first-col">Visually Pleasing</td>
+				<td><input type="radio" value="none" name="Visually" id="visually" /></td>
+				<td><input type="radio" value="none" name="Visually" id="visually"/></td>
+				<td><input type="radio" value="none" name="Visually" id="visually"/></td>
+				<span id="f-error6"></span>
+			  </tr>
+			</table>
+			<hr>
+			
+			<p class="question"><img src="../../images/icons/Tc16.png" /> If we were to change some things about the site, what would you change? </p>	
+			<p> Please check all that apply: </p>
+			<div class="question-answer">
+			  <label><input  type="checkbox" value="none" name="Other" /> Include other mytholoical creatures </label>
+			  <label><input  type="checkbox" value="none" name="Norse" /> Information on the Norse gods </label>
+			  <label><input  type="checkbox" value="none" name="Euro" /> More from other european cultures </label>
+			  <label><input  type="checkbox" value="none" name="World" /> More from other world cultures </label>
+			  <label><input  type="checkbox" value="none" name="All" /> All of the Above </label>
+			  <label><input  type="checkbox" value="none" name="lessTroll" /> Less Trolls </label>
+			  <label><input  type="checkbox" value="none" name="noChange" /> No Changes </label>
+			  <span id="f-error7"></span>
+			</div>
+			<hr>
+			
+			
+			<p class="question"><img src="../../images/icons/Tc16.png" /> What is the likelihood that you will visit the website again? </p>
+			<div class="question-answer">
+			  <label><input type="radio" value="none" name="likelihood" id="likelihood" /> Extremely likely</label>
+			  <label><input type="radio" value="none" name="likelihood" id="likelihood" /> Very likely</label>
+			  <label><input type="radio" value="none" name="likelihood" id="likelihood" /> Moderately likely</label>
+			  <label><input type="radio" value="none" name="likelihood" id="likelihood" /> Slightly likely</label>
+			  <label><input type="radio" value="none" name="likelihood" id="likelihood" /> Not at all likely</label>
+			  <span id="f-error8"></span>
+			</div>
+		<hr>
+		
+        <p class="question"><img src="../../images/icons/Tc16.png" /> Please add any comments you have for improving the website. We welcome suggestions on specific areas for improvements. </p>
+			<textarea rows="5"></textarea>
+		<hr>
+		
+		<p class="question"> <img src="../../images/icons/Tc16.png" /> Terms </p>
+			<label> I agree to the terms and conditions.</label> 
+				<input id="terms"  required type="checkbox" onclick="return formTerms()" />  
+				<span id="error_terms"> </span>
+							
+		
+        <div class="btn-block">
+          <button type="submit" value="check form" id="submitBtn" > <img src="../../images/icons/Tc16.png" /> Submit </button>
+		  <button type="reset" value="reset form"> <img src="../../images/icons/Tc16.png" /> Reset </button>
+        </div>
+      </form>
+    </div>
+  
+				
+			</div>
+		</div>
+	</div>		
+</section>
+			<!-- end content -->
+
+
+
+
+<!---------------footer----------------->
+<footer class="footer">
+
+	<div class="container">
+		<div class="btmTag">
+				<span><img src="../../images/icons/upArrow.png" alt="icon" width="25"/></span> &nbsp;&nbsp; 
+						
+			</div>
+		<div class="about"> 
+			<h4> About </h4>
+				<p>
+					This blog at the moment is dedicated to Trolls. 
+					The mytical creature from Norse folklore. <br />
+					Though, as the blog expands, it may begin to encompass, all of Norse myth. <br />
+					Hope you have a great time exploring the site.
+				</p>
+		</div>
+		<div class="quickLink"> 
+			<h4> External Links </h4>
+				<ul>
+					<li>
+						<a href="https://owlcation.com/social-sciences/troll-of-norway#:~:text=%20However,%20we%20have%20learned%20the%20names%20of,Geirr%C3%B6d%E2%80%94A%20j%C3%B6tunn%20and%20father%20of%20giantes...%20More" target="_blank" > 
+							<img id="linkimg" alt="Owlcation" src="../../images/links/owllink.JPG" width="100" height="25" />
+						</a>
+					</li>
+					<li>
+						<a href="https://mythology.net/norse/norse-creatures/troll/" target="_blank" >
+							<img id="linkimg" alt="mythology.net" src="../../images/links/mythlink.JPG" width="100" height="25" />
+						</a>
+					</li><!--alter this-->
+					<li>
+						<a href="https://en.wikipedia.org/wiki/Troll#Norse_mythology" target="_blank" >
+							<img id="linkimg" alt="wiki link" src="../../images/links/wikilink.JPG" width="100" height="25" />
+						</a>
+					</li>
+					<li>
+						<a href="https://www.lifeinnorway.net/norwegian-trolls/" target="_blank" >
+							<img id="linkimg" alt="life in Norway" src="../../images/links/norwayLink.jpg" width="100" height="25"/>
+						</a>
+					</li>
+				</ul>
+		</div>
+		
+		<div class="follow">
+			<h4> Follow </h4>
+				<a href="https://www.facebook.com/"> <img src="../../images/icons/wFacebook.jpg" alt="white facebook logo" width="30px" ></a>
+				<a href="https://www.instagram.com/"> <img src="../../images/icons/insta.png" alt="white instagram logo" width="35px" ></a>
+				<a href="https://twitter.com"> <img src="../../images/icons/twitterB.png" alt="white twitter logo" width="30px" ></a>
+				<a href="https://www.pinterest.ie/dereknelsen_com/norse-trolls/"> <img src="../../images/icons/pintW.jpg" alt="white pintrest logo" width="30px" ></a>
+				
+		</div>
+		
+		<div class="email">
+			<h4> Email </h4>
+				<p> Don't hesitate to get in touch </p>
+				<form class="newsForm" action="mailto: Genniferee@yahoo.ie" method="post" enctype="text/plain" > <!-- footer form affected by forms CSS - try to find a fix -->
+					<input type="email" id="yourEmail" placeholder="Email"  />
+					<input type="image" img src="../../images/icons/whiteArrow.jpg" width="20" alt="submit" /> </span>
+				</form>
+		</div>
+		
+	</div>
+</footer>
+
+<!-----------      end of footer      ------------>
+
+<script src="../../js/jQueryLib3.6.0.js"> </script><!----jQuery library-------->
+<script src="../../js/owl.carousel.min.js"></script> <!---------- carousel ------->
+<script src="../../js/Main.js"> </script><!------ Javascrpit------->
+
+</body>
+</html>
